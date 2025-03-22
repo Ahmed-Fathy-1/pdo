@@ -1,5 +1,10 @@
 <?php 
 
+
+// connection with PDO
+// -------------------------------
+
+
 try{
 
     $pdo = new PDO('mysql:host:localhost;dbname=pdo', 'root', '', [
